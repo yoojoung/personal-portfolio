@@ -34,7 +34,23 @@ for i in range(len(s) - 1):
 """
 
 
-"""testing for lp(leetcode problem)#14"""
-strs = ["apple", "banana", "honeydew"]
-for i in range(len(strs)):
-    
+"""testing for lp(leetcode problem)#14
+
+strs = ["flower", "flowing", "floful"]
+
+lcp = ""
+for i in range(len(strs) - 1):
+    print(len(strs[i]))
+    for j in range(len(strs[i])):
+        if strs[i][j] == strs[i + 1][j]:
+            lcp = strs[i][:j + 1]
+        else:
+            lcp = 
+print(lcp)
+        
+"""
+
+def longestCommonPrefix(strs):
+    return "testing"
+
+print(longestCommonPrefix("aeiou"))
