@@ -49,8 +49,3 @@ for i in range(len(strs) - 1):
 print(lcp)
         
 """
-
-def longestCommonPrefix(strs):
-    return "testing"
-
-print(longestCommonPrefix("aeiou"))
